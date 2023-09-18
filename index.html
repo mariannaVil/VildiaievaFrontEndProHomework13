@@ -6,6 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-
+    <script>
+        const array = ['a', 'b', 'c', 'd', 'e', 'f', 'g'];
+           function removeItemFromArray(arr, itemToRemove) {
+            return arr.filter(item => item !== itemToRemove);
+        }
+        let newArray = removeItemFromArray(array, 'f');
+        alert(newArray);
+        </script>
 </body>
 </html>
